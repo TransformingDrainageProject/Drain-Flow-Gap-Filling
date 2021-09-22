@@ -33,11 +33,22 @@ For days with zero precipitation, missing drain flow was calculated from the pre
 where **_Q_** is daily drain flow, **_k_** is the average recession coefficient of falling limbs calculated as a linear slope of **_ln(Q)_**, and i indicates day. The recession coefficient was calculated as a linear slope between the peak and inflection point of log-transformed daily drain flow data. The coefficient was calculated for all falling limbs of drain flow data and the average seasonal values were calculated as their arithmetic mean. 
 
 It should be noted that the regression model between on-site precipitation and peak flow and recession equation were done using the original (pre-gap-filled) drain flow data. When the number of missing drainage days exceeded 152 (5 months) within a calendar year predictions were not made. Both the original and filled data are included in the published data. 
-  
+
+<br>
   
 ## Transforming Drainage Data
 
+<img align="right" width=280 src="https://transformingdrainage.org/wp-content/uploads/2018/07/Transforming_Drainage_2-e1531337444488.jpg">
+
 The data used in the gap-filling process (available on this repository) represents a fraction of the large dataset collected by the [Transforming Drainage Project](https://transformingdrainage.org/) from artificially drained agricultural fields across US Midwest and North Carolina. The complete dataset consist of 219 variables, including 90 field measurement and 129 management variables, and is published at the USDA National Agricultural Library Ag Data Commons repository.
 
-When use this dataset, please cite: [![DOI](https://img.shields.io/badge/DOI-10.15482%2FUSDA.ADC%2F1521092-brightgreen)](https://doi.org/10.15482/USDA.ADC/1521092)
+### Data Usage Agreement 
+
+Please reference this data set in publications as:
+
+> _Chighladze, G., L.J. Abendroth, D. Herzmann, M. Helmers, L. Ahiablame, B. Allred, L. Bowling, L. Brown, N. Fausey, J. Frankenberger, D. Jaynes, X. Jia, J. Kjaersgaard, K. King, E. Kladivko, K. Nelson, L. Pease, B. Reinhart, J. Strock, and M. Youssef. 2021. Transforming Drainage Research Data (USDA-NIFA Award No. 2015-68007-23193). National Agricultural Library - ARS - USDA. https://doi.org/10.15482/USDA.ADC/1521092._
+
+You are encouraged to contact the Transforming Drainage personnel to ensure proper data interpretation and may also consider co-authoring with them. You shall have no claim of ownership to any intellectual property rights in any part of the data, content, functions, features, code, data exploration tools, logos or other intellectual property comprising this database.
+
+[![DOI](https://img.shields.io/badge/DOI-10.15482%2FUSDA.ADC%2F1521092-brightgreen)](https://doi.org/10.15482/USDA.ADC/1521092)
 
