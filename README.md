@@ -26,11 +26,11 @@ For days with precipitation, a 2-day moving average was calculated in order to t
 
 For days with zero precipitation, missing drain flow was calculated from the previous day’s observed flow using the 1st order recession equation 
 
-$$
-Q_i = Q_{i-1}e^k
-$$
+<p align="center">
+<img src="https://render.githubusercontent.com/render/math?math=Q_i = Q_{i-1} e^k">
+</p>
 
-where $Q$ is daily drain flow, $k$ is the average recession coefficient of falling limbs calculated as a linear slope of $ln(Q)$, and i indicates day. The recession coefficient was calculated as a linear slope between the peak and inflection point of log-transformed daily drain flow data. The coefficient was calculated for all falling limbs of drain flow data and the average seasonal values were calculated as their arithmetic mean. 
+where **_Q_** is daily drain flow, **_k_** is the average recession coefficient of falling limbs calculated as a linear slope of **_ln(Q)_**, and i indicates day. The recession coefficient was calculated as a linear slope between the peak and inflection point of log-transformed daily drain flow data. The coefficient was calculated for all falling limbs of drain flow data and the average seasonal values were calculated as their arithmetic mean. 
 
 It should be noted that the regression model between on-site precipitation and peak flow and recession equation were done using the original (pre-gap-filled) drain flow data. When the number of missing drainage days exceeded 152 (5 months) within a calendar year predictions were not made. Both the original and filled data are included in the published data. 
   
